@@ -9,8 +9,9 @@
 /*-----Base-----*/
 body{
  	font-family: 'Lato', arial, sans-serif;
-	color: #434343;
-	background: #D2E7EF;
+	color: #b2b2b2;
+  background-image: linear(#515151, #24252d);
+	background-color: #1a1a1a;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;/*Used for making the font smoother and eyepleasing ;-webkit_Its a CSS transition*/
 	-moz-osx-font-smoothing: grayscale; /*-moz-osx- _Used for fontsmoothing in the older OSX using firefox as webkit is not supported by the moz*/
@@ -24,7 +25,7 @@ h5,
 h6 {/*--blue links--*/
  	font-family: 'Roboto', sans-serif;
  	font-weight: 700;
- 	color: #778492;
+ 	color: #7499ba;
 }
 
 a {/*--blue links--*/
@@ -62,30 +63,30 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {/*--Contact me btn--*/
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background-color: #38a55d;
+  border: 1px solid #38a55d;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
+  background: #18bd50;
+  border: 1px solid #18bd50;
   color: #fff;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {/*--Like btn--*/
-  background: #479FC8;
-  border: 1px solid #479FC8;
+  background: #2d96c6;
+  border: 1px solid #2d96c6;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: #3893bd;
-  border: 1px solid #3893bd;
+  background: #287294;
+  border: 1px solid #287294;
   color: #fff;
 }
 .text-highlight {
@@ -106,8 +107,9 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background-color: #349902;
+  background-color: rgba(0, 0, 0, .3);
+  border-top: 10px solid #2f6e7b;
 }
 .header .btn {
   margin-top: 60px;
@@ -116,14 +118,15 @@ a.dotted-link:hover {
 .header .profile-image {/*--image--*/
   margin-right: 30px;
 }
+
 .header .profile-content .name {/*initial header*/
-  color: #49515a;
+  color: #5196e3;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #778492;
+  color: #7d8791;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -131,7 +134,7 @@ a.dotted-link:hover {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #454545;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -143,11 +146,11 @@ a.dotted-link:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  color: #fff;
+  color: #bbb;
   text-align: center;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #191a20;
 }
 .header .profile-content .social a .fa {
   font-size: 20px;
@@ -162,13 +165,14 @@ a.dotted-link:hover {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #fff;
+  background: #0b0c12;
+  background-color: rgba(0, 0 , 0, 0.3);
   padding: 30px;
 }
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #cecece;
   font-size: 24px;
 }
 .section .content .more-link .fa {
@@ -189,10 +193,10 @@ a.dotted-link:hover {
   font-size: 12px;
 }
 .latest .item .title a {
-  color: #778492;
+  color: #7499b8;
 }
 .latest .item .title a:hover {
-  color: #5f6b77;
+  color: #477195;
 }
 .latest .item .project-image:hover {
   -webkit-opacity: 0.8;
@@ -282,7 +286,7 @@ a.dotted-link:hover {
   font-weight: normal;
 }
 .experience .item .title .place a {
-  color: #999;
+  color: #c2c3c0;
 }
 .experience .item .title .place a:hover {
   color: #666666;
