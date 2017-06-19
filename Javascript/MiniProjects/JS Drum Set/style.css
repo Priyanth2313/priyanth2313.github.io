@@ -1,0 +1,76 @@
+/* Template Name: Javascript Sound
+ * Author: Priyanth Dasari
+ * License: Belongs to Priyanth
+ * Website: http://priyanth.github.io/
+ * Purpose: JS mini project;
+ */
+
+html {
+  font-size: 10px;
+  background: url(https://cn.pling.com/img/b/7/a/6/2f868b17fe6b40a8f7875b9cc97d326f8850.jpg) center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.row {
+  display: table-cell;
+  width: 100%;
+  border-spacing: 10px;
+}
+.keys {
+  display: inline-flex;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys-1 {
+  display: inline-flex;
+  min-height: 1vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.keys-2 {
+  display: inline-flex;
+  min-height: 1vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
