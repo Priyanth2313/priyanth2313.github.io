@@ -23,6 +23,7 @@ jQuery(document).ready(function($) {
     $('.level-label').tooltip();
 });
 
+//Navigation for Projects link
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
 }

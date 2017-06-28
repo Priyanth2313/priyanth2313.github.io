@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /Assets/
+Disallow: /Javascript/
+Disallow: /index.html/
+Disallow: /README.md/
+
+User-agent: Googlebot
+Disallow: /Assets/
+Disallow: /Javascript/
+Disallow: /index.html/
+Disallow: /README.md/
+
+User-agent: Bingbot
+Disallow: /Assets/
+Disallow: /Javascript/
+Disallow: /index.html/
+Disallow: /README.md/
+
+
