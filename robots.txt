@@ -1,10 +1,12 @@
 User-agent: *
+Disallow: /
 Disallow: /Assets/
 Disallow: /Javascript/
 Disallow: /index.html/
 Disallow: /README.md/
 
 User-agent: Googlebot
+Disallow: /
 Disallow: /Assets/
 Disallow: /Javascript/
 Disallow: /index.html/
