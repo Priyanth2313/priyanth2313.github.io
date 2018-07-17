@@ -403,7 +403,7 @@ a.dotted-link:hover {
 }
 .education .item .title {
   font-size: 16px;
-  margin-top: 0;
+  margin: 10px 20px;
 }
 .education .item .university {
   font-family: "Lato", arial, sans-serif;
